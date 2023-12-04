@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: #E5E5E5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset{
+    border-radius: 10px; 
+    height: 70px; 
+    margin: 0 10%; 
+    width: 80%; 
+    background-color: #eaedf7; 
+    cursor: pointer;
+}
+form>table{
+    margin: 0 auto;
+    width: 100%;
+}
+legend{
+    color: #6E717C;
+}
+input{
+    font-size: 20px; 
+    border: 0px gray; 
+    color: #6E717C; 
+    background-color: #eaedf7; 
+    cursor: pointer;
+}
+select{
+    border: 0px;
+    font-size: 20px;
+    margin: 0 0 0 20px;
+    background-color: #eaedf7;
+    cursor: pointer;
+}
+.tr{
+    height: 90px;
+}
+.terms>p{
+    color: #6E717C;
+}
+.bigTable{
+    margin: 0 auto;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.creditLimit{
+    text-align: center;
+}
+.quickAdd{
+    float: right;
+    margin: 0 7%;
+}
+.quickAdd>button{
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.NIL{
+    display: inline-flex;
+    background-color: #eaedf7;
+    text-align: center;
+    width: 70%;
+    margin: 5% 15%;
+    border-radius: 10px;
+}
+.terms{
+    display: inline-flex; 
+    margin: 0 10%;
+}
+.apply{
+    background-color: #4f4bc4;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #fff;
+    margin: 3% 15%;
+    width: 70%;
+    height: 80px;
+    cursor: pointer;
+}
+.NIL>img{
+    padding-top: 5px;
+}
+.NIL>span{
+    padding-top: 5px;
+}
+#clText{
+    color: #6765E8;
+}
+#clDigit{
+    font-size: 20px;
+}
+#air{
+    color: #6765E8;
+    float: right;
+    margin: 0 10% ;
+}
+#air>span{
+    font-size: 18px;
+    color: black;
+}
+#NIL{
+    font-size: 20px;
+
+}
+#allowance{
+    padding-left: 20px;
+}
+#checkbox{
+    cursor: pointer;
+    width: 15px;
+}
+#terms{
+    color: #6765E8;
+    text-decoration: none;
+}
